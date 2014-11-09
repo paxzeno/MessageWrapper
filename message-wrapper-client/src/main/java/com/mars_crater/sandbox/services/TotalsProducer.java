@@ -4,7 +4,6 @@ import com.mars_crater.messages.CatTypeTotals;
 import com.mars_crater.messages.IndexTypeTotals;
 import com.mars_crater.messages.NonTypeTotals;
 import com.mars_crater.messages.Totals;
-import com.mars_crater.messages.Type;
 import com.mars_crater.sandbox.entities.vo.TotalsVO;
 
 import java.util.List;
