@@ -1,0 +1,42 @@
+<tot:totalsRequest xmlns:tot="http://www.mars-crater.com/com/mars-crater/messages/totals">
+  <tot:totals>
+    <!--1 or more repetitions:-->
+      <tot:indexTypeTotals>
+          <tot:index>1</tot:index>
+          <tot:type>index</tot:type>
+          <tot:LoadQtt>1000</tot:LoadQtt>
+          <tot:LoadAmnt>2000.00</tot:LoadAmnt>
+          <tot:DistributedQtt>500</tot:DistributedQtt>
+          <tot:RecycledQtt>100</tot:RecycledQtt>
+      </tot:indexTypeTotals>
+      <tot:indexTypeTotals>
+          <tot:index>2</tot:index>
+          <tot:type>index</tot:type>
+          <tot:LoadQtt>300</tot:LoadQtt>
+          <tot:LoadAmnt>3000.00</tot:LoadAmnt>
+          <tot:DistributedQtt>1000</tot:DistributedQtt>
+          <tot:RecycledQtt>50</tot:RecycledQtt>
+      </tot:indexTypeTotals>
+        <tot:indexTypeTotals>
+          <tot:index>3</tot:index>
+          <tot:type>index</tot:type>
+          <tot:LoadQtt>30</tot:LoadQtt>
+          <tot:LoadAmnt>1000.00</tot:LoadAmnt>
+          <tot:DistributedQtt>200</tot:DistributedQtt>
+          <tot:RecycledQtt>200</tot:RecycledQtt>
+        </tot:indexTypeTotals>
+    <!--1 or more repetitions:-->
+    <tot:catTypeTotals>
+      <tot:type>category</tot:type>
+      <tot:RecycledQtt>350</tot:RecycledQtt>
+      <tot:RecycledAmnt>10000.00</tot:RecycledAmnt>
+      <tot:NonRecycledQtt>100</tot:NonRecycledQtt>
+      <tot:NonRecycledAmnt>1000.00</tot:NonRecycledAmnt>
+    </tot:catTypeTotals>
+    <!--1 or more repetitions:-->
+    <tot:nonTypeTotals>
+      <tot:type>other</tot:type>
+      <tot:LoadQtt>10</tot:LoadQtt>
+    </tot:nonTypeTotals>
+  </tot:totals>
+</tot:totalsRequest>
